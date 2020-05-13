@@ -1,0 +1,1030 @@
+body {
+	margin: 0;
+	font-family: verdana;
+}
+
+.title, .m_coll, .m_main_1, .m_main_2, .m_main_3,.w_coll, .w_main_1 {
+	padding: 10px;
+	
+}
+
+.title {
+	display: flex;
+	height: 480px;
+	background: url(gor.jpg) center no-repeat; 
+	background-size: cover; 
+}
+
+/*Надпись для мужчин*/
+.m_coll {
+	height: 50px;
+	background: black;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.m_coll:hover {
+	background: white;
+	color: black;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.6s linear, color 0.6s linear;
+}
+
+/*Начало мужской части*/
+.m_main {
+	display: flex;
+	flex-direction: column;
+}
+
+.m_main_1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.b_1 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(Frd.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_1:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_1 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_1:hover .but_1 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button {
+  background:#eee;
+  color:#000;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button:hover{
+  box-shadow:10px -5px 0 #000 inset;
+}
+
+.b_2 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(WPDL.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_2:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_2 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_2:hover .but_2 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_2 {
+  background:#eee;
+  color:#088;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_2:hover{
+  box-shadow:10px -5px 0 #088 inset;
+}
+.b_3 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(asd.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_3:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_3 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_3:hover .but_3 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_3 {
+  background:#eee;
+  color:#999;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_3:hover{
+  box-shadow:10px -5px 0 #999 inset;
+}
+.m_main_2 {
+	display: flex;
+
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.b_4 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(ori.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_4:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_4 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_4:hover .but_4 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_4 {
+  background:#eee;
+  color:#3333FF;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+}
+
+.button_4:hover{
+  box-shadow:10px -5px 0 #3333FF inset;
+}
+.b_5 {
+	display: flex;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(spd.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_5:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_5 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_5:hover .but_5 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_5 {
+  background:#eee;
+  color:#FF0000;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_5:hover{
+  box-shadow:10px -5px 0 #FF0000 inset;
+}
+.b_6 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(fut.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_6:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_6 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_6:hover .but_6 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_6 {
+  background:#eee;
+  color:#000;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_6:hover{
+  box-shadow:10px -5px 0 #000 inset;
+}
+.m_main_3 {
+	display: flex;
+
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.b_7 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(zka.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_7:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_7 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_7:hover .but_7 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_7 {
+  background:#eee;
+  color:#3333FF;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_7:hover{
+  box-shadow:10px -5px 0 #3333FF inset;
+}
+.b_8 {
+	display: flex;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(but.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_8:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_8 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_8:hover .but_8 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_8 {
+  background:#eee;
+  color:#FF0000;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_8:hover{
+  box-shadow:10px -5px 0 #FF0000 inset;
+}
+.b_9 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(pog.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.b_9:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.but_9 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.b_9:hover .but_9 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.button_9 {
+  background:#eee;
+  color:#088;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.button_9:hover{
+  box-shadow:10px -5px #088 inset;
+}
+
+/*Конец мужской части*/
+
+
+/*Надпись для женщин*/
+.w_coll {
+	height: 50px;
+	background: #fff;
+	color: #000;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.w_coll:hover {
+	background: #FF00FF;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.6s linear, color 0.6s linear;
+
+}
+/*Начало женской части*/
+.w_main {
+	display: flex;
+	flex-direction: column;
+}
+.w_main_1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.wb_1 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(lkj.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_1:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_1 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_1:hover .wbut_1 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton {
+  background:#eee;
+  color:#FDD017;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton:hover{
+  box-shadow:10px -5px 0 #FDD017 inset;
+}
+
+.wb_2 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(vhj.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_2:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_2 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_2:hover .wbut_2 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_2 {
+  background:#eee;
+  color:#FF1499;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_2:hover{
+  box-shadow:10px -5px 0 #FF1499 inset;
+}
+.wb_3 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(kjhg.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_3:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_3 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_3:hover .wbut_3 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_3 {
+  background:#eee;
+  color:#8A2BE2;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_3:hover{
+  box-shadow:10px -5px 0 #8A2BE2 inset;
+}
+.w_main_2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.wb_4 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(oik.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_4:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_4 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_4:hover .wbut_4 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_4 {
+  background:#eee;
+  color:#088;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_4:hover{
+  box-shadow:10px -5px 0 #088 inset;
+}
+
+.wb_5 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(kjg.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_5:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_5 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_5:hover .wbut_5 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_5 {
+  background:#eee;
+  color:#ffc0cb;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_5:hover{
+  box-shadow:10px -5px 0 #ffc0cb inset;
+}
+.wb_6 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(sdf.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_6:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_6 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_6:hover .wbut_6 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_6 {
+  background:#eee;
+  color:#0000ff;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_6:hover{
+  box-shadow:10px -5px 0 #0000ff inset;
+}
+.w_main_3 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	height: 430px;
+	background: #3C3838;
+	justify-content: space-around;
+}
+.wb_7 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(fhu.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_7:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_7 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_7:hover .wbut_7 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_7 {
+  background:#eee;
+  color:#FF1499;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_7:hover{
+  box-shadow:10px -5px 0 #000 inset;
+}
+.wb_8 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(cll.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_8:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_8 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_8:hover .wbut_8 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_8 {
+  background:#eee;
+  color:#ffc0cb;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_8:hover{
+  box-shadow:10px -5px 0 #ffc0cb inset;
+}
+.wb_9 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(gij.jpg) center no-repeat; 
+	background-size: cover; 
+
+}
+.wb_9:hover {
+	background: dimgrey;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.wbut_9 {
+    opacity: 0;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 100px);
+    color:#fff;
+    transition: opacity .3s;
+    font-size: 12px;
+}
+
+.wb_9:hover .wbut_9 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.wbutton_9 {
+  background:#eee;
+  color:#000;
+  text-decoration:none;
+  display:block;
+  width:120px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+
+}
+
+.wbutton_9:hover{
+  box-shadow:10px -5px 0 #ff5722 inset;
+}
+/*Нижняя часть*/
+.foot {
+	display: flex;
+	height: 150px;
+	background: #808080;
+	color: white;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.copy, .dich, .link {
+  margin: 5px;
+  padding: 10px;
+	/*border: 1px solid red;*/
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid red;*/
+}
+.dich {
+  display: flex;
+  align-items: center;
+}
+.link {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.disc {
+  padding: 5px 5px;
+  height: 45px;
+  /*border: 1px solid #000;*/
+  display: flex;
+  align-items: center;
+}
+
+.dd {
+  margin: 0px 5px;
+}
+
+.cop {
+
+  font-size: 25px;
+  font-family: verdana;
+}
